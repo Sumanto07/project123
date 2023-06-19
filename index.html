@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Ment IIT - Your Personal Mentor
+  </title>
+  <meta name="description" content="Simple landind page" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <!-- Define yourgradient here - use online tools to find agradient matching your branding-->
+  <style>
+    .gradient {
+      background: radial(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+    }
+  </style>
+</head>
+
+<body class="leading-normal tracking-normal text-black" style="font-family: 'Source Sans Pro', sans-serif; ">
+  <!--Nav-->
+  <nav id="header" class="sticky w-full z-30 text-black" style="position:fixed; top: 0%;">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-0
+    ">
+      <div class="pl-4 flex items-left">
+        <a class="toggleColour text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+          Ment IIT
+        </a>
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#Section1">Home</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-black no-underline" href="#Section2">About Us</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#Section3">plans</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#Section1">College Predictor</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#Section4">Contact</a>
+          </li>
+        </ul>
+        <button id="navAction"
+          class="mx-auto lg:mx-0 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" style="color: green; border-color: green;">
+          <a href="file:///Users/sumanto/Desktop/mentiit/register%20and%20login/login.html">
+          Login
+          </a>
+        </button>
+      </div>
+    </div>
+    <hr class="border-b border-white-100 opacity-25 my-0 py-0" />
+  </nav>
+
+
+
+  <!--Hero-->
+  <section id="Section1">
+  <div class="h-screen">
+    <div class=" px-16 my-12 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <!--Left Col-->
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left" style="top: 10pxpx;">
+        <p class="uppercase tracking-loose w-full" style=" border-width: 5px; border-color: white;">What are you waiting for?</p>
+        <h1 class="my-4 text-5xl font-bold leading-tight">
+          We Provide mentorship for JEE Counselling!
+        </h1>
+        <p class="text-gray-800 text-normal text-2xl mb-8">
+          Our team of experienced IITians will utilize their extensive knowledge and understanding of the college
+          admission process to help students make informed decisions regarding their choice of college.
+          . Make it just right!
+        </p>
+
+        <button
+          class="py-4 px-6 text-white bg-emerald-600 border focus:ring-indigo-500 focus:ring-offset-indigo-200 hover:text-white mx-auto lg:mx-0  text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Book a Session Right Now
+        </button>
+        <button
+          class="py-2 px-2 text-white bg-emerald-600 border focus:ring-indigo-500 focus:ring-offset-indigo-200 hover:text-white mx-auto lg:mx-0  text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <a href="file:///Users/sumanto/Desktop/mentiit/register%20and%20login/register.html">
+          Register Now
+          </a>
+        </button>
+        <p class="text-gray-800 text-normal text-2xl mb-8" >For new students..</p>
+      </div>
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-6 text-center">
+        <img class="w-full md:w-4/5 z-50" src="hero.png" />
+      </div>
+    </div>
+  </div>
+  <div class="relative -mt-12 lg:-mt-24">
+  </div>
+</section>
+
+
+
+  <!-- SECTION -->
+  <section class="bg-white dark:bg-gray-100 py-8">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <img class="w-full dark:hidden"
+        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+      <img class="w-full hidden dark:block"
+        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+        alt="dashboard image">
+      <div class="mt-4 md:mt-0">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-white dark:text-black">Let's create
+          more tools
+          and ideas that brings us together.</h2>
+        <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">MentIIT is an online platform dedicated
+          to providing personalised guidance and support to students who have appeared for the JEE Advanced examination
+          and are seeking assistance in selecting the best college options. The website serves as a one-stop resource
+          for students to access comprehensive information and expert advice from a team of experienced IITians.</p>
+
+        <button
+          class="text-white bg-emerald-600 mx-auto lg:mx-0 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Subscribe
+        </button>
+
+      </div>
+    </div>
+  </section>
+  <!-- SECTION -->
+
+
+
+
+  <!-- <section class="bg-white border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        Title
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="w-5/6 sm:w-1/2 p-6">
+          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <p class="text-gray-600 mb-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+            amet ligula.
+            <br />
+            <br />
+
+            Images from:
+
+            <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2 p-6">
+        </div>
+      </div>
+      <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+        </div>
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="align-middle">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Lorem ipsum dolor sit amet
+            </h3>
+            <p class="text-gray-600 mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+              <br />
+              <br />
+              Images from:
+
+              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- 
+  <section class="bg-white dark:bg-gray-100">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class="max-w-screen-md">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Let's find more that
+          brings us together.</h2>
+        <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Flowbite helps you connect with friends,
+          family and communities of people who share your interests. Connecting with your friends and family as well as
+          discovering new ones is easy with features like Groups, Watch and Marketplace.</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+          <a href="/"
+            class="text-white bg-emerald-600 border border-gray-100 inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            View more
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+
+  <section class="bg-white border-b py-8">
+    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        Title
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-start">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-center">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+              xGETTING STARTED
+            </p>
+            <div class="w-full font-bold text-xl text-gray-800 px-6">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
+              amet ligula.
+            </p>
+          </a>
+        </div>
+        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+          <div class="flex items-center justify-end">
+            <button
+              class="text-white bg-emerald-600 mx-auto lg:mx-0 hover:text-white text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Action
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- PRICE SECTION -->
+  <section id="Section3" class="bg-emerald-500 py-8">
+    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800 transition: all 0.2s;">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">
+        Plans
+      </h2><!DOCTYPE html>
+      <html>
+      <head>
+        <title>Price Plans</title>
+        <style>
+          .price-box {
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px;
+          }
+          .center {
+            text-align: center;
+          }
+          .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+          }
+          
+          .description {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+          }
+          
+          .features {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+          }
+          
+          .features li {
+            margin-bottom: 10px;
+          }
+          
+          .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+          }
+          
+          .button:hover {
+            background-color: #555;
+          }
+          div {text-align: center;}
+        </style>
+      </head>
+      <body>
+        <div class="price-box">
+          <div class="price">299</div>
+          <div class="description">Basic Plan</div>
+          <ul class="features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+          </ul>
+          <a href="#" class="button">Get Started</a>
+        </div>
+        
+        <div class="price-box">
+          <div class="price">499</div>
+          <div class="description">Standard Plan</div>
+          <ul class="features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            
+          </ul>
+          <a href="#" class="button">Get Started</a>
+        </div>
+        
+        <div class="price-box">
+
+          <div class="price">999</div>
+          <div class="description">Premium Plan</div>
+          <ul class="features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            
+          </ul>
+          <a href="#" class="button">Get Started</a>
+        </div>
+      </body>
+      </html>
+      
+      
+      <!--<div class="w-full mb-4">
+        <div class="h-1 mx-auto w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 ">
+        <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4" style="transition: transform 0.2s;">
+          <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="p-8 text-3xl font-bold text-center border-b-4">
+              Basic
+            </div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              299
+              <span class="text-base">for one user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="w-full p-8 text-3xl font-bold text-center">Intermediate</div>
+            <div class="h-1 w-full my-0 py-0 rounded-t"></div>
+            <ul class="w-full text-center text-base font-bold">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-4xl font-bold text-center">
+              499
+              <span class="text-base">/ per user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+          <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="p-8 text-3xl font-bold text-center border-b-4">
+              Pro
+            </div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+              <li class="border-b py-4">Thing</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              999
+              <span class="text-base">/ per user</span>
+            </div>
+            <div class="flex items-center justify-center">
+              <button
+                class="text-white bg-emerald-600 mx-auto lg:mx-0 text-black font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      
+    </div>
+  </section>
+  <!-- PRICE SECTION -->
+  <!-- TEAM -->
+  <section id="Section2" class="bg-white dark:bg-gray-100">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Our Team</h2>
+        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of
+          open-source web components and elements built with the utility classes from Tailwind</p>
+      </div>
+      <div>
+        <style>
+          html {
+            box-sizing: border-box;
+          }
+          
+          *, *:before, *:after {
+            box-sizing: inherit;
+          }
+          
+          .column {
+            float: left;
+            width: 25%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+          
+          @media screen and (max-width: 650px) {
+            .column {
+              width: 100%;
+              display: block;
+            }
+          }
+          
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          }
+          
+          .container {
+            padding: 0 16px;
+          }
+          
+          .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          .title {
+            color: grey;
+          }
+          
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          .button:hover {
+            background-color: #555;
+          }
+          </style>
+          <div class="row">
+           <div class="column">
+            <div class="card">
+              <img src="./assets/image/Aman Samria.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+            <h2>Aman Samria</h2>
+              <p class="title">CEO & Founder</p>
+              <p>IIT Gandhinagar</p>
+            <!--<p>aman.samria@iitgn.ac.in</p>-->
+            <a href="https://www.linkedin.com/in/amansamria/"><p><button class="button">Contact</button></p></a>
+          </button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./assets/image/Sumanto Dutta.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Sumanto Dutta</h2>
+              <p class="title">Co-Founder</p>
+              <p>IIT Gandhinagar.</p>
+              <!--<p>sumanto.dutta@iitgn.ac.in</p>-->
+              <a href="https://www.linkedin.com/in/sumanto07/"><p><button class="button">Contact</button></p></a>
+                </button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./assets/image/abcd.png" alt="harry" style="width:100%">
+            <div class="container">
+              <h2>Harendra khatik</h2>
+              <p class="title">Co-Founder</p>
+              <p>IIT Gandhinagar.</p>
+              <!--<p>example@example.com</p>-->
+              <a href="https://www.linkedin.com/in/akash-kumar-7a69b0190"><p><button class="button">Contact</button></p></a>
+                </button></p>
+            </div>
+          </div>
+        </div>
+        
+      <div class="zoom"><div class="column">
+        <div class="card">
+          <img src="./assets/image/akash.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Akash katria</h2>
+            <p class="title">Co-Founder</p>
+            <p>IIT Gandhinagar.</p>
+            <!--<p>example@example.com</p>-->
+            <a href="https://www.linkedin.com/in/akash-kumar-7a69b0190"><p><button class="button">Contact</button></p></a>
+              </button></p>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- TEAM -->
+
+
+
+
+<!--Change the colour #f8fafc to match the previous section colour -->
+ <!-- <section class="container mx-auto text-center py-12 bg-gray-100" style="color: #13d46d;">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
+      Call to Action
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <h3 class="my-4 text-3xl leading-tight">
+      Main Hero Message to sell yourself!
+    </h3>
+    <button
+      class="text-white bg-emerald-600 mx-auto lg:mx-0 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+      Action!
+    </button>
+  </section>
+-->
+
+  <!--Footer-->
+  <section id="Section4">
+  <footer class="bg-gray-50 py-6">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex-1 mb-6 text-black">
+          <a class="text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
+            Ment IIT
+          </a>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">FAQ</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Help</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Terms</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Facebook</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Linkedin</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Official Blog</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">About Us</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="/" class="no-underline text-gray-800 hover:text-pink-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
+  <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+  <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
+
+    document.addEventListener("scroll", function () {
+      /*Apply classes for slide in bar*/
+      scrollpos = window.scrollY;
+
+      if (scrollpos > 10) {
+        header.classList.add("bg-white");
+        navaction.classList.remove("bg-white");
+        navaction.classList.add("gradient");
+        navaction.classList.remove("text-gray-800");
+        navaction.classList.add("text-black");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-gray-800");
+          toToggle[i].classList.remove("text-black");
+        }
+        header.classList.add("shadow");
+        navcontent.classList.remove("bg-gray-100");
+        navcontent.classList.add("bg-white");
+      } else {
+        header.classList.remove("bg-white");
+        navaction.classList.remove("gradient");
+        navaction.classList.add("bg-white");
+        navaction.classList.remove("text-black");
+        navaction.classList.add("text-gray-800");
+        //Use to switch toggleColour colours
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-black");
+          toToggle[i].classList.remove("text-gray-800");
+        }
+
+        header.classList.remove("shadow");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
+      }
+    });
+  </script>
+  <script>
+    /*Toggle dropdown list*/
+    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+    var navMenuDiv = document.getElementById("nav-content");
+    var navMenu = document.getElementById("nav-toggle");
+
+    document.onclick = check;
+    function check(e) {
+      var target = (e && e.target) || (event && event.srcElement);
+
+      //Nav Menu
+      if (!checkParent(target, navMenuDiv)) {
+        // click NOT on the menu
+        if (checkParent(target, navMenu)) {
+          // click on the link
+          if (navMenuDiv.classList.contains("hidden")) {
+            navMenuDiv.classList.remove("hidden");
+          } else {
+            navMenuDiv.classList.add("hidden");
+          }
+        } else {
+          // click both outside link and outside menu, hide menu
+          navMenuDiv.classList.add("hidden");
+        }
+      }
+    }
+    function checkParent(t, elm) {
+      while (t.parentNode) {
+        if (t == elm) {
+          return true;
+        }
+        t = t.parentNode;
+      }
+      return false;
+    }
+  </script>
+  <p>© MentIIT.com, Inc. All rights reserved.</p>
+
+    <p>MentIIT provides access to independent attorneys and self-service tools. We are not a law firm and do not provide legal advice. Use of our products and services are governed by our Terms of Use and Privacy Policy.
+    
+    </p>
+
+
+</body>
+
+</html>
+
+
+
+<!--<div class="footer-bottom">
+  <div class="container">
+    <div class="row mt-20">
+      <div class="col-md-4">
+        <div class="about-footer">
+          <h2>About us</h2>
+          <p>SACC is a group of like minded, selfless entrepreneurs, professionals committed to bring a change in developing the Startup eco-system in Punjab and Chandigarh region. </p>
+          <a class="footer-button" href="global-about-us.html">Read More</a>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="about-footer">
+          <h2>Quick Links</h2>
+          <ul class="list">
+            <li><a href="startups.html">Startups</a></li>
+            <li><a href="global-about-us.html">About Us</a></li>
+            <li><a href="mentors.html">Our Mentors</a></li>
+            <li><a href="grassroots.html">SACC @ Grassroots</a></li>
+            <li><a href="startup-education.html">Startup Education</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="media.html">Media</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="about-footer">
+          <h2>Our Centres</h2>
+          <ul class="list">
+            <li><a href="panchkula.html">Panchkula</a></li>
+            <li><a href="hisar.html">Hisar</a></li>
+            <li><a href="gurugram.html">Gurugram</a></li>
+            <li><a href="faridabad.html">Faridabad</a></li>
+            <li><a href="karnal.html">Karnal</a></li>
+            <li><a href="mohali.html">Mohali</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-footer">
+          <h2>Get In Touch</h2>
+          <form name="form" class="widget-contact-form" action="form_action.php" method="post" id="form">
+            <div class="row">
+            <div class="form-group col-md-6">
+            <input type="text" aria-required="true" id="name" name="name" class="form-control required name" placeholder="Enter your Name*" fdprocessedid="45ophl">
+            </div>
+            <div class="form-group col-md-6">
+            <input type="email" aria-required="true" id="email" name="email" class="form-control required email" placeholder="Enter your Email*" fdprocessedid="23a7hw">
+            </div>
+            </div>
+            <div class="row">
+            <div class="form-group col-md-12">
+            <input type="text" id="phone" name="phone" class="form-control required" placeholder="Enter your Phone Number*" aria-required="true" fdprocessedid="r922w">
+            </div>
+            </div>
+            <div class="form-group">
+            <textarea type="text" id="message" name="message" rows="5" class="form-control required" placeholder="Enter your Message*" aria-required="true"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="g-recaptcha" data-sitekey="6Ld1sOwUAAAAAE6pXnFft3sX6c8k_29tZ133GVTl"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld1sOwUAAAAAE6pXnFft3sX6c8k_29tZ133GVTl&amp;co=aHR0cHM6Ly93d3cuc2FjY2luZGlhLm9yZzo0NDM.&amp;hl=en&amp;v=SglpK98hSCn2CroR0bKRSJl5&amp;size=normal&amp;cb=gbs67j1a2ftn" width="304" height="78" role="presentation" name="a-mszc2cqv5vzr" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+            </div>	
+            <button name="join_us" class="btn footer-button" type="submit" id="form-submit" fdprocessedid="jhxy7a"><i class="fa fa-paper-plane"></i>&nbsp; Submit</button> 
+                               <div id="gif" style="visibility: hidden;"> <i class="fa fa-spinner fa-spin" aria-hidden="true"></i></div>								
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="seperator-div"></div>
+    <div class="footer-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <ul class="foote_bottom_ul_amrc">
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <!-- <li><a href="#">Terms of Use </a></li> 
+              <li><a href="disclaimer.html">Disclaimer Notice</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <ul class="list-unstyled social">
+              <li class="list-inline-item"><a href="https://www.facebook.com/saccindia/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/saccindia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC8xZHwnjQmwAgOqRzkRoyyQ/featured" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/company/saccindia" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/saccindia/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
